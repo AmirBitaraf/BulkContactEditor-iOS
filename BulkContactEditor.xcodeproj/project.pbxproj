@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FE37E2844BD4636C435D999 /* Pods_BulkContactEditor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88F198C40A04E06D22BEE46E /* Pods_BulkContactEditor.framework */; };
+		2986A1872B10074400B7D372 /* BulkContactEditorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2986A1862B10074400B7D372 /* BulkContactEditorApp.swift */; };
+		2986A1892B10074400B7D372 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2986A1882B10074400B7D372 /* ContentView.swift */; };
+		2986A18B2B10074600B7D372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2986A18A2B10074600B7D372 /* Assets.xcassets */; };
+		2986A18E2B10074600B7D372 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2986A18D2B10074600B7D372 /* Preview Assets.xcassets */; };
+		2986A1982B10074700B7D372 /* BulkContactEditorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2986A1972B10074700B7D372 /* BulkContactEditorTests.swift */; };
+		2986A1A22B10074700B7D372 /* BulkContactEditorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2986A1A12B10074700B7D372 /* BulkContactEditorUITests.swift */; };
+		2986A1A42B10074700B7D372 /* BulkContactEditorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2986A1A32B10074700B7D372 /* BulkContactEditorUITestsLaunchTests.swift */; };
+		9C894F152A10AB997BA4CF33 /* Pods_BulkContactEditorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 993C35A93B9BCB9DF8EF1406 /* Pods_BulkContactEditorTests.framework */; };
+		F098F908167818136E9CE165 /* Pods_BulkContactEditor_BulkContactEditorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A608D171AEFB2D251F075B1 /* Pods_BulkContactEditor_BulkContactEditorUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2986A1942B10074700B7D372 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2986A17B2B10074400B7D372 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2986A1822B10074400B7D372;
+			remoteInfo = BulkContactEditor;
+		};
+		2986A19E2B10074700B7D372 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2986A17B2B10074400B7D372 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2986A1822B10074400B7D372;
+			remoteInfo = BulkContactEditor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2986A1832B10074400B7D372 /* BulkContactEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BulkContactEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2986A1862B10074400B7D372 /* BulkContactEditorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulkContactEditorApp.swift; sourceTree = "<group>"; };
+		2986A1882B10074400B7D372 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2986A18A2B10074600B7D372 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2986A18D2B10074600B7D372 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2986A1932B10074700B7D372 /* BulkContactEditorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BulkContactEditorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2986A1972B10074700B7D372 /* BulkContactEditorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulkContactEditorTests.swift; sourceTree = "<group>"; };
+		2986A19D2B10074700B7D372 /* BulkContactEditorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BulkContactEditorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2986A1A12B10074700B7D372 /* BulkContactEditorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulkContactEditorUITests.swift; sourceTree = "<group>"; };
+		2986A1A32B10074700B7D372 /* BulkContactEditorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulkContactEditorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		88F198C40A04E06D22BEE46E /* Pods_BulkContactEditor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BulkContactEditor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A608D171AEFB2D251F075B1 /* Pods_BulkContactEditor_BulkContactEditorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BulkContactEditor_BulkContactEditorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D378857A31293C5F289E738 /* Pods-BulkContactEditor-BulkContactEditorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BulkContactEditor-BulkContactEditorUITests.release.xcconfig"; path = "Target Support Files/Pods-BulkContactEditor-BulkContactEditorUITests/Pods-BulkContactEditor-BulkContactEditorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		993C35A93B9BCB9DF8EF1406 /* Pods_BulkContactEditorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BulkContactEditorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A19B82C1378C1F2A187073E4 /* Pods-BulkContactEditorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BulkContactEditorTests.release.xcconfig"; path = "Target Support Files/Pods-BulkContactEditorTests/Pods-BulkContactEditorTests.release.xcconfig"; sourceTree = "<group>"; };
+		DA09ABCE585A719D0E0A0E9F /* Pods-BulkContactEditor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BulkContactEditor.release.xcconfig"; path = "Target Support Files/Pods-BulkContactEditor/Pods-BulkContactEditor.release.xcconfig"; sourceTree = "<group>"; };
+		E15E779358F1B8D3DD4942C0 /* Pods-BulkContactEditorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BulkContactEditorTests.debug.xcconfig"; path = "Target Support Files/Pods-BulkContactEditorTests/Pods-BulkContactEditorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E78BA5963757BA59B062FA95 /* Pods-BulkContactEditor-BulkContactEditorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BulkContactEditor-BulkContactEditorUITests.debug.xcconfig"; path = "Target Support Files/Pods-BulkContactEditor-BulkContactEditorUITests/Pods-BulkContactEditor-BulkContactEditorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FADA63D2C42F40D78DDE6149 /* Pods-BulkContactEditor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BulkContactEditor.debug.xcconfig"; path = "Target Support Files/Pods-BulkContactEditor/Pods-BulkContactEditor.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2986A1802B10074400B7D372 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FE37E2844BD4636C435D999 /* Pods_BulkContactEditor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2986A1902B10074700B7D372 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C894F152A10AB997BA4CF33 /* Pods_BulkContactEditorTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2986A19A2B10074700B7D372 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F098F908167818136E9CE165 /* Pods_BulkContactEditor_BulkContactEditorUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2986A17A2B10074400B7D372 = {
+			isa = PBXGroup;
+			children = (
+				2986A1852B10074400B7D372 /* BulkContactEditor */,
+				2986A1962B10074700B7D372 /* BulkContactEditorTests */,
+				2986A1A02B10074700B7D372 /* BulkContactEditorUITests */,
+				2986A1842B10074400B7D372 /* Products */,
+				DA6167EBE30ABC1FA4BDE71E /* Pods */,
+				38B6BF45FED3955C01E94242 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2986A1842B10074400B7D372 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2986A1832B10074400B7D372 /* BulkContactEditor.app */,
+				2986A1932B10074700B7D372 /* BulkContactEditorTests.xctest */,
+				2986A19D2B10074700B7D372 /* BulkContactEditorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2986A1852B10074400B7D372 /* BulkContactEditor */ = {
+			isa = PBXGroup;
+			children = (
+				2986A1862B10074400B7D372 /* BulkContactEditorApp.swift */,
+				2986A1882B10074400B7D372 /* ContentView.swift */,
+				2986A18A2B10074600B7D372 /* Assets.xcassets */,
+				2986A18C2B10074600B7D372 /* Preview Content */,
+			);
+			path = BulkContactEditor;
+			sourceTree = "<group>";
+		};
+		2986A18C2B10074600B7D372 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2986A18D2B10074600B7D372 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2986A1962B10074700B7D372 /* BulkContactEditorTests */ = {
+			isa = PBXGroup;
+			children = (
+				2986A1972B10074700B7D372 /* BulkContactEditorTests.swift */,
+			);
+			path = BulkContactEditorTests;
+			sourceTree = "<group>";
+		};
+		2986A1A02B10074700B7D372 /* BulkContactEditorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2986A1A12B10074700B7D372 /* BulkContactEditorUITests.swift */,
+				2986A1A32B10074700B7D372 /* BulkContactEditorUITestsLaunchTests.swift */,
+			);
+			path = BulkContactEditorUITests;
+			sourceTree = "<group>";
+		};
+		38B6BF45FED3955C01E94242 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88F198C40A04E06D22BEE46E /* Pods_BulkContactEditor.framework */,
+				8A608D171AEFB2D251F075B1 /* Pods_BulkContactEditor_BulkContactEditorUITests.framework */,
+				993C35A93B9BCB9DF8EF1406 /* Pods_BulkContactEditorTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA6167EBE30ABC1FA4BDE71E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FADA63D2C42F40D78DDE6149 /* Pods-BulkContactEditor.debug.xcconfig */,
+				DA09ABCE585A719D0E0A0E9F /* Pods-BulkContactEditor.release.xcconfig */,
+				E78BA5963757BA59B062FA95 /* Pods-BulkContactEditor-BulkContactEditorUITests.debug.xcconfig */,
+				8D378857A31293C5F289E738 /* Pods-BulkContactEditor-BulkContactEditorUITests.release.xcconfig */,
+				E15E779358F1B8D3DD4942C0 /* Pods-BulkContactEditorTests.debug.xcconfig */,
+				A19B82C1378C1F2A187073E4 /* Pods-BulkContactEditorTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2986A1822B10074400B7D372 /* BulkContactEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2986A1A72B10074700B7D372 /* Build configuration list for PBXNativeTarget "BulkContactEditor" */;
+			buildPhases = (
+				4682EB98D8EC73CD640CB79B /* [CP] Check Pods Manifest.lock */,
+				2986A17F2B10074400B7D372 /* Sources */,
+				2986A1802B10074400B7D372 /* Frameworks */,
+				2986A1812B10074400B7D372 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BulkContactEditor;
+			productName = BulkContactEditor;
+			productReference = 2986A1832B10074400B7D372 /* BulkContactEditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2986A1922B10074700B7D372 /* BulkContactEditorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2986A1AA2B10074700B7D372 /* Build configuration list for PBXNativeTarget "BulkContactEditorTests" */;
+			buildPhases = (
+				B46A5480E8A9639A844BBDEB /* [CP] Check Pods Manifest.lock */,
+				2986A18F2B10074700B7D372 /* Sources */,
+				2986A1902B10074700B7D372 /* Frameworks */,
+				2986A1912B10074700B7D372 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2986A1952B10074700B7D372 /* PBXTargetDependency */,
+			);
+			name = BulkContactEditorTests;
+			productName = BulkContactEditorTests;
+			productReference = 2986A1932B10074700B7D372 /* BulkContactEditorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2986A19C2B10074700B7D372 /* BulkContactEditorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2986A1AD2B10074700B7D372 /* Build configuration list for PBXNativeTarget "BulkContactEditorUITests" */;
+			buildPhases = (
+				0DE4DCD28B09C5FF0D360B92 /* [CP] Check Pods Manifest.lock */,
+				2986A1992B10074700B7D372 /* Sources */,
+				2986A19A2B10074700B7D372 /* Frameworks */,
+				2986A19B2B10074700B7D372 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2986A19F2B10074700B7D372 /* PBXTargetDependency */,
+			);
+			name = BulkContactEditorUITests;
+			productName = BulkContactEditorUITests;
+			productReference = 2986A19D2B10074700B7D372 /* BulkContactEditorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2986A17B2B10074400B7D372 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					2986A1822B10074400B7D372 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					2986A1922B10074700B7D372 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 2986A1822B10074400B7D372;
+					};
+					2986A19C2B10074700B7D372 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 2986A1822B10074400B7D372;
+					};
+				};
+			};
+			buildConfigurationList = 2986A17E2B10074400B7D372 /* Build configuration list for PBXProject "BulkContactEditor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2986A17A2B10074400B7D372;
+			productRefGroup = 2986A1842B10074400B7D372 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2986A1822B10074400B7D372 /* BulkContactEditor */,
+				2986A1922B10074700B7D372 /* BulkContactEditorTests */,
+				2986A19C2B10074700B7D372 /* BulkContactEditorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2986A1812B10074400B7D372 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2986A18E2B10074600B7D372 /* Preview Assets.xcassets in Resources */,
+				2986A18B2B10074600B7D372 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2986A1912B10074700B7D372 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2986A19B2B10074700B7D372 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DE4DCD28B09C5FF0D360B92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BulkContactEditor-BulkContactEditorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4682EB98D8EC73CD640CB79B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BulkContactEditor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B46A5480E8A9639A844BBDEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BulkContactEditorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2986A17F2B10074400B7D372 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2986A1892B10074400B7D372 /* ContentView.swift in Sources */,
+				2986A1872B10074400B7D372 /* BulkContactEditorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2986A18F2B10074700B7D372 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2986A1982B10074700B7D372 /* BulkContactEditorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2986A1992B10074700B7D372 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2986A1A42B10074700B7D372 /* BulkContactEditorUITestsLaunchTests.swift in Sources */,
+				2986A1A22B10074700B7D372 /* BulkContactEditorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2986A1952B10074700B7D372 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2986A1822B10074400B7D372 /* BulkContactEditor */;
+			targetProxy = 2986A1942B10074700B7D372 /* PBXContainerItemProxy */;
+		};
+		2986A19F2B10074700B7D372 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2986A1822B10074400B7D372 /* BulkContactEditor */;
+			targetProxy = 2986A19E2B10074700B7D372 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2986A1A52B10074700B7D372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2986A1A62B10074700B7D372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2986A1A82B10074700B7D372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FADA63D2C42F40D78DDE6149 /* Pods-BulkContactEditor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BulkContactEditor/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.bitaraf.amir.BulkContactEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2986A1A92B10074700B7D372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA09ABCE585A719D0E0A0E9F /* Pods-BulkContactEditor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BulkContactEditor/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.bitaraf.amir.BulkContactEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2986A1AB2B10074700B7D372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E15E779358F1B8D3DD4942C0 /* Pods-BulkContactEditorTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.bitaraf.amir.BulkContactEditorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BulkContactEditor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BulkContactEditor";
+			};
+			name = Debug;
+		};
+		2986A1AC2B10074700B7D372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A19B82C1378C1F2A187073E4 /* Pods-BulkContactEditorTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.bitaraf.amir.BulkContactEditorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BulkContactEditor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BulkContactEditor";
+			};
+			name = Release;
+		};
+		2986A1AE2B10074700B7D372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E78BA5963757BA59B062FA95 /* Pods-BulkContactEditor-BulkContactEditorUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.bitaraf.amir.BulkContactEditorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BulkContactEditor;
+			};
+			name = Debug;
+		};
+		2986A1AF2B10074700B7D372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D378857A31293C5F289E738 /* Pods-BulkContactEditor-BulkContactEditorUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.bitaraf.amir.BulkContactEditorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BulkContactEditor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2986A17E2B10074400B7D372 /* Build configuration list for PBXProject "BulkContactEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2986A1A52B10074700B7D372 /* Debug */,
+				2986A1A62B10074700B7D372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2986A1A72B10074700B7D372 /* Build configuration list for PBXNativeTarget "BulkContactEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2986A1A82B10074700B7D372 /* Debug */,
+				2986A1A92B10074700B7D372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2986A1AA2B10074700B7D372 /* Build configuration list for PBXNativeTarget "BulkContactEditorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2986A1AB2B10074700B7D372 /* Debug */,
+				2986A1AC2B10074700B7D372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2986A1AD2B10074700B7D372 /* Build configuration list for PBXNativeTarget "BulkContactEditorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2986A1AE2B10074700B7D372 /* Debug */,
+				2986A1AF2B10074700B7D372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2986A17B2B10074400B7D372 /* Project object */;
+}
